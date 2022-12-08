@@ -22,7 +22,7 @@ ul li a::after {
   }
 
   .project-tile {
-    margin-bottom: 12em;
+/*     margin-bottom: 12em; */
   }
   .project-tile img {
     height: 12.5em;
