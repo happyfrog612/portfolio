@@ -25,8 +25,8 @@ ul li a::after {
     margin-bottom: 12em;
   }
   .project-tile img {
-    height: 25em;
-    width: 50em;
+    height: 12.5em;
+    width: 25em;
     transition: .5s ease;
   }
   .middle {
