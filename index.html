@@ -4,86 +4,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="href='https://fonts.googleapis.com/css?family=Atkinson Hyperlegible'">
 </head>
-<body style="background: #D9D9D9;">
+<body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active dropdown js-scroll-trigger">
-              <a class="nav-link" href="#about" role="button" aria-haspopup="true" aria-expanded="false">about</a>
+              <a class="nav-link" href="#about" role="button" aria-haspopup="true" aria-expanded="false"><strong>about</strong></a>
               <div></div>
             </li>
             <li class="nav-item dropdown js-scroll-trigger">
-              <a class="nav-link" href="#projects" role="button" aria-haspopup="true" aria-expanded="false">projects</a>
+              <a class="nav-link" href="#projects" role="button" aria-haspopup="true" aria-expanded="false"><strong>projects</strong></a>
               <div></div>
             </li>
             <li class="nav-item dropdown js-scroll-trigger">
-                <a href="/resume.html" class="nav-link">resume</a>
+                <a href="/resume.html" class="nav-link"><strong>resume</strong></a>
               </li>
             <li class="nav-item dropdown js-scroll-trigger">
-                <a href="#contact" class="nav-link">contact</a>
+                <a href="#contact" class="nav-link"><strong>contact</strong></a>
               </li>
         </div>
     </nav>
-    <section class="welcome">
+    <section class="welcome" style="background-color: lightgreen;">
         <a id="about"></a>
-        <h1>🐸 Happy Frog's Portfolio 🐸</h1>
-        <h5>cs @ brown</h5>
-        <!-- <h2>about</h2> -->
-        <h3>happy frog, happier clients</h3>
+        <h1 style="margin-left: 10px; color: black;">🐸 Happy Frog's Portfolio 🐸</h1>
+        <h5 style="margin-left: 10px; color: black;"><strong>cs @ brown</strong></h5>
     </section>
+    <section class="intro" style="display: flex; justify-content: space-between; margin-top: 10px;">
+        <div style="margin-left: 10px;">
+            <h2><strong>happy frog, happier clients</strong></h2>
+            <h4>Happy frog strives to put the user first in everything he does, whether that's anticipating the needs of a 
+            small business or individual. He's an empathetic go getter who's not afraid to have a little ~fun~ along the way.
+            His skills include but are not limited to:</h4>
+            <ul>
+                <li>ui/ux design</li>
+                <li>comprehensive web dev capabilties</li>
+                <li><u>VERY</u> good at catching bugs</li>
+                <li>user data analysis</li>
+                <li>swimming</li>
+                <li>thoughtful listener</li>
+            </ul>
+        </div>
+        
+        <div>
+            <img style="padding-left: 300px; width: 90%;" src="frog.gif">
+            <p style="padding-left: 300px; ">just look at him!!</p>
+        </div>
+    </section>
+    
     <a id="projects"></a>
-    <h2>projects</h2>
+    <h2 style="margin-left: 10px;"><strong>projects</strong></h2>
+    <h4 style=" margin-left: 10px; width:1000px;">Happy frog has been hard at work this semester pushing the design industry forward. He is eager
+    to share his findings with you! If you share this eagerness, you can click on the different projects to learn more about them.</h4>
     <section class="projects">
-        <div class="project-tile">
+        <div class="project-tile" style="background-color: lightseagreen; padding: 10px; padding-bottom: 30px; border-radius: 8px;">
             <div class="container">
                 <a href="https://happyfrog612.github.io/personas-and-storyboards/">
-                    <img src="personas.png">
+                    <img src="MacBook Pro 16.png" style="height:100%; width: 100%;">
                     <div class="middle">
-                        <div class="title" style="margin-top: -30%;">Personas & Storyboards</div>
-                        <div class="description">User Stories & Empathetic Design</div>
+                        <div class="title" style="margin-top:-40px;">(Personas & Storyboarding)</div>
+                        <div class="description">User Stories & Storyboards</div>
                     </div>
                 </a>
             </div>
+            <div class="more-info">
+                <h4><strong>summary</strong></h4>
+                <p>The goal of this project was to analyze and identify flaws in commonly used interfaces. This project focused specifically on the 
+                    kiosks at CVS, a surprisingly clunky device. Through the use of personas, empathy maps, and storyboards, happy frog explores the 
+                    intricacies of the interface and suggests some sound improvements.<br> <a href="https://happyfrog612.github.io/personas-and-storyboards/">take me there!</a>
+                </p>
+                <div style="display:flex; justify-content: space-between; margin-bottom: 1100px;">
+                    <div>
+                        <h4><strong>goods</strong></h4>
+                        <ul>
+                            <li>research based approach</li>
+                            <li>personalized analysis & problem solving</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><strong>growths</strong></h4>
+                        <ul>
+                            <li>hand drawn designs</li>
+                            <li>ui not designed for frogs :/</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-        <div class="project-tile">
-            <div class="container">
+        <div class="project-tile" style="background-color: lightsalmon; padding: 10px; padding-bottom: 30px; border-radius: 8px;">
+            <div class="container" >
                 <a href="https://happyfrog612.github.io/responsive-redesign/">
-                    <img src="redesign.png">
+                    <img src="iPad Mini.png">
                     <div class="middle">
-                        <div class="title" style="margin-top: -30%;">Responsive Redesign</div>
+                        <div class="title" style="margin-top: -100px;">(Responsive Redesign)</div>
                         <div class="description">MN DMV Rennovation</div>
                     </div>
                 </a>
             </div>
+            <div class="more-info">
+                <h4><strong>summary</strong></h4>
+                <p>Happy frog hates the DMV, and hated the site even more, so he changed it! Focusing on the licenses page of the MN DMV, happy frog 
+                    introduced an accessible and cleaner design to an essential government page. Not did this project improve the design of the page, it 
+                    improved its universality across devices, to work on computers, tablets, and phones alike!<br><a href="https://happyfrog612.github.io/responsive-redesign/">take me there!</a>
+                </p>
+                <div style="display:flex; justify-content: space-between; margin-bottom: 1100px;">
+                    <div>
+                        <h4><strong>goods</strong></h4>
+                        <ul>
+                            <li>css animations</li>
+                            <li>bootstrap</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><strong>growths</strong></h4>
+                        <ul>
+                            <li>disagreements with github deployment</li>
+                            <li>variability between hi-fi prototypes and final product</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="project-tile">
+        <div class="project-tile" style="background-color: lightcoral; padding: 10px; padding-bottom: 30px; border-radius: 8px;">
             <div class="container">
                 <a href="https://fastgorilla146.github.io/Iterative-Design/">
-                    <img src="iterative.png">
+                    <img src="iMac 24 inch.png" style="height:90%; width: 90%;">
                     <div class="middle">
-                        <div class="title" style="margin-top: -30%;">Iterative Design</div>
-                        <div class="description">Built UI to meet the needs of YC startup Cambio</div>
+                        <div class="title" style="justify-content: end; margin-top: -100px;">(Iterative Design)</div>
+                        <div class="description">Cambio Mockup</div>
                     </div>
                 </a>
             </div>
+            <div class="more-info">
+                <h4><strong>summary</strong></h4>
+                <p>Happy frog busted out his entrepreneurial spirit for this one to help YC startup Cambio, a B2B service focused on helping landlords 
+                    keep track of energy/resource use to encourage sustainable behavior, by designing a mock product from the ground up! With the help of three 
+                    other animals that can only be described with a single adjective preceding their species.<br><a href="https://happyfrog612.github.io/Iterative-Design/">take me there!</a>
+                </p>
+                <div style="display:flex; justify-content: space-between; margin-bottom: 1100px;">
+                    <div>
+                        <h4><strong>goods</strong></h4>
+                        <ul>
+                            <li>crowd sourced design and user research</li>
+                            <li>intuitive designs supported by successful anonymous user testing</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><strong>growths</strong></h4>
+                        <ul>
+                            <li>psuedo-samey design</li>
+                            <li>ambiguous data presentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="project-tile">
+        <div class="project-tile" style="background-color: lightpink; padding: 10px; padding-bottom: 30px; border-radius: 8px;">
             <div class="container">
                 <a href="https://happyfrog612.github.io/devFinal/">
-                    <img src="react.png">
+                    <img src="Mac Studio.png" style="height:90%; width: 90%;">
                     <div class="middle">
-                        <div class="title" style="margin-top: -30%;">Development</div>
-                        <div class="description">React App Music Store</div>
+                        <div class="title" style="margin-top: -80px;">(Development)</div>
+                        <div class="description">Music Shoppe</div>
                     </div>
                 </a>
             </div>
+            <div class="more-info">
+                <h4><strong>summary</strong></h4>
+                <p>Happy frog has always loved music, so he made a site dedicated to helping people find the instruments they were looking for! 
+                    He figured this would be a good way to give back. Using React and sorting principles, this project brang this dream to life in 
+                    the shape of a minimalist online boutique, 
+                    <br><a href="https://happyfrog612.github.io/Iterative-Design/">take me there!</a>
+                </p>
+                <div style="display:flex; justify-content: space-between; margin-bottom: 1100px;">
+                    <div>
+                        <h4><strong>goods</strong></h4>
+                        <ul>
+                            <li>comprehensive react design</li>
+                            <li>stacked/flexible filtering to meet the user's needs</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><strong>growths</strong></h4>
+                        <ul>
+                            <li>perhaps too minimalist...</li>
+                            <li>clearer visual queues when things change/filter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <section class="contact">
         <a id="contact"></a>
         <h2>contact</h2>
-        <h5>he's not allowed to give you his info but he is very friendly</h5>
+        <h5>he's not allowed to give you his info but he is very friendly. if you want to learn more, you can check out his <a href="https://github.com/happyfrog612">github</a></h5>
     </section>
 
 </body>
