@@ -20,7 +20,7 @@ ul li a::after {
   .projects {
     display: flex;
     justify-content: space-between;
-    flex-wrap: warp;
+    flex-wrap: wrap;
     /* flex: -1 -1 230px; */
   }
   .more-info {
