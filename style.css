@@ -4,6 +4,10 @@ body {
     background-color: rgb(41, 44, 51);
 }
 
+.more-info li {
+    font-size: small;
+}
+
 ul li a::after {
     position: absolute;
     content: "";
